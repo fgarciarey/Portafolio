@@ -1,8 +1,14 @@
-import { Socials } from "@/constants";
+"use client"
+
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
+  const handleClick = () => {
+    console.log("Click");
+  };
+
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
@@ -37,22 +43,17 @@ const Navbar = () => {
             <a href="#footer" className="cursor-pointer">
               Contacto
             </a>
-            <a href="#projects" className="cursor-pointer">
-              CV
-            </a>
+            <Link
+            onClick={handleClick}
+              href={"https://drive.google.com/file/d/1C7CWYEIur3FyDPgFNqfLk10toyaG4V2Q/view?usp=drive_link"}
+              className="cursor-pointer">
+               CV
+            </Link>
           </div>
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
-          ))}
+          
         </div>
       </div>
     </div>

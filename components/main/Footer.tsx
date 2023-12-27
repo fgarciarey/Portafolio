@@ -37,8 +37,10 @@ const Footer = () => {
           
         </div>
 
-        <div className="mb-20 text-2xl text-center">
-          Felipe García-Rey &copy; - 2023.
+        <div className="mb-15 text-2xl text-center">
+          Felipe García-Rey
+          <br />
+          Full Stack Web Developer&copy; - UDD 2023.
         </div>
       </div>
     </div>

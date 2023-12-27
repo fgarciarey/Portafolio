@@ -41,16 +41,19 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "LinkedIn",
+      src: "/icons8-linkedin.svg",
+      url: "https://www.linkedin.com/in/felipegarciareyyanez/",
     },
     {
       name: "Facebook",
       src: "/facebook.svg",
+      url: "",
     },
     {
       name: "Instagram",
       src: "/discord.svg",
+      url: "",
     },
   ];
   
