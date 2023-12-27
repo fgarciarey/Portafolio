@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -18,7 +19,7 @@ function ProjectCard({ src, title, description, url }: ProjectCardProps) {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex flex-col h-full">
       {/* Ajusta el componente Image según tus necesidades */}
-      <img
+      <Image
         src={src}
         alt={title}
         width={1000}
