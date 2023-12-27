@@ -40,7 +40,7 @@ const Navbar = () => {
             <a href="#projects" className="cursor-pointer">
               Proyectos
             </a>
-            <a href="#footer" className="cursor-pointer">
+            <a href="#contact" className="cursor-pointer">
               Contacto
             </a>
             <Link

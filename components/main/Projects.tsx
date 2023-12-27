@@ -28,7 +28,7 @@ const Projects = () => {
         <ProjectCard
           src="/WOKEATECOMMERCE.jpg"
           title="Wokeate Ecommerce"
-          description="Proyecto 5: Proyecto de Restaurante adaptado con funcionalidad de creación de usuario, solicitar reserva y compra en linea."
+          description="Proyecto 5: Proyecto de Restaurante adaptado con funcionalidad de creación de usuario, solicitar reserva y compra en linea integrada."
           url="https://github.com/fgarciarey/WokeateEcommerceCliente"
         />
         <ProjectCard
