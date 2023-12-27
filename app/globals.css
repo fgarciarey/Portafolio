@@ -93,3 +93,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Oculta el Navbar en dispositivos con un ancho de pantalla de 768 píxeles o menos (típicamente dispositivos móviles) */
+@media (max-width: 768px) {
+  .hiddenOnMobile {
+    display: none;
+  }
+}

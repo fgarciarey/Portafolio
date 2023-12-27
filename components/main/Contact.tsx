@@ -25,68 +25,68 @@ const Contact = () => {
           </h1>
         </div>
 
-        <div className="min-w-[300px] h-auto flex flex-row items-center justify-start">
+        <div className="min-w-[300px] h-auto flex flex-col md:flex-row items-center justify-around mb-5">
           {/* Sección superior */}
-          <div className="flex items-center mx-[40px] text-[18px] text-gray-200">
+          <div className="contact-item flex flex-col items-center ml-[20px]">
             <a
               href="https://github.com/fgarciarey"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center"
+              className="text-[20px] text-gray-200 mt-[8px] flex flex-col items-center"
             >
               <RxGithubLogo size={30} />
-              <span className="ml-[20px]">GitHub</span>
+              <span className="mt-[10px]">GitHub</span>
             </a>
           </div>
 
-          <div className="flex items-center mx-[40px] text-[18px] text-gray-200">
+          <div className="contact-item flex flex-col items-center ml-[20px]">
             <a
               href="https://www.linkedin.com/in/felipegarciareyyanez/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center"
+              className="text-[20px] text-gray-200 mt-[8px] flex flex-col items-center"
             >
               <RxLinkedinLogo size={30} />
-              <span className="ml-[20px]">LinkedIn</span>
+              <span className="mt-[10px]">LinkedIn</span>
             </a>
           </div>
 
-          <div className="flex items-center mx-[40px] text-[18px] text-gray-200">
+          <div className="contact-item flex flex-col items-center ml-[20px]">
             <a
               href="mailto:felipe.agry@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center"
+              className="text-[20px] text-gray-200 mt-[8px] flex flex-col items-center"
             >
               <FaEnvelope size={30} />
-              <span className="ml-[20px]">Email</span>
+              <span className="mt-[10px]">Email</span>
             </a>
           </div>
         </div>
 
-        <div className="min-w-[300px] h-auto flex flex-row items-center justify-center mt-10">
+        <div className="min-w-[300px] h-auto flex flex-row items-center justify-around mt-5">
           {/* Sección inferior centrada y separada */}
-          <div className="flex items-center mx-[40px] text-[18px] text-gray-200">
+          <div className="ontact-item flex flex-col items-center ml-[20px]">
             <a
               href="https://discord.gg/FSbWaQZK"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center"
+              className="text-[20px] text-gray-200 mt-[8px] flex flex-col items-center"
             >
               <RxDiscordLogo size={30} />
-              <span className="ml-[20px]">Discord</span>
+              <span className="mt-[10px]">Discord</span>
             </a>
           </div>
 
-          <div className="flex items-center mx-[40px] text-[18px] text-gray-200">
+          <div className="contact-item flex flex-col items-center ml-[20px]">
             <a
               href="https://drive.google.com/file/d/1C7CWYEIur3FyDPgFNqfLk10toyaG4V2Q/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center"
+              className="text-[20px] text-gray-200 mt-[8px] flex flex-col items-center"
             >
               <RxFile size={30} />
-              <span className="ml-[20px]">Curriculum</span>
+              <span className="mt-[10px]">Curriculum</span>
             </a>
           </div>
         </div>

@@ -3,19 +3,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import styles from "./styles.module.css";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const handleClick = () => {
     console.log("Click");
   };
 
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
+    <div className={`w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 hiddenOnMobile`}>
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-        <a
-          href="#about-me"
-          className="h-auto w-auto flex flex-row items-center"
-        >
+        <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
           <Image
             src="/logo-felipee.png"
             alt="logo"
@@ -43,18 +41,13 @@ const Navbar = () => {
             <a href="#contact" className="cursor-pointer">
               Contacto
             </a>
-            <Link
-            onClick={handleClick}
-              href={"https://drive.google.com/file/d/1C7CWYEIur3FyDPgFNqfLk10toyaG4V2Q/view?usp=drive_link"}
-              className="cursor-pointer">
-               CV
+            <Link onClick={handleClick} href={"https://drive.google.com/file/d/1C7CWYEIur3FyDPgFNqfLk10toyaG4V2Q/view?usp=drive_link"} className="cursor-pointer">
+              CV
             </Link>
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
-          
-        </div>
+        <div className="flex flex-row gap-5"></div>
       </div>
     </div>
   );
