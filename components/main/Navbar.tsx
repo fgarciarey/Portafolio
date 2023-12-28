@@ -41,7 +41,12 @@ const Navbar: React.FC = () => {
             <a href="#contact" className="cursor-pointer">
               Contacto
             </a>
-            <Link onClick={handleClick} href={"https://drive.google.com/file/d/1C7CWYEIur3FyDPgFNqfLk10toyaG4V2Q/view?usp=drive_link"} className="cursor-pointer">
+            <Link
+              onClick={handleClick}
+              href={"https://drive.google.com/file/d/1C7CWYEIur3FyDPgFNqfLk10toyaG4V2Q/view?usp=drive_link"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer">
               CV
             </Link>
           </div>
