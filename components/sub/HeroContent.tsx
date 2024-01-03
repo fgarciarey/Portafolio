@@ -42,9 +42,10 @@ const HeroContent = () => {
           variants={slideInFromLeft (0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Ingeniero en Maquinaria Pesada y Vehículos Automotrices de profesión, actualmente estoy ampliando
-          mi conjunto de habilidades y conocimientos con el objetivo de convertirme en un Desarrollador Web
-          Full Stack. Mi trayectoria profesional en la ingeniería me ha proporcionado una sólida base en la
+          Ingeniero en Maquinaria Pesada y Vehículos Automotrices y Sistemas Electrónicos de profesión, actualmente diplomado
+          como Desarrollador Full Stack Web. En el cual me encuentro ampliando mi conjunto de habilidades y conocimientos con el
+          objetivo de progresar y poder seguir avanzando en conjunto a la tecnología.
+          Mi trayectoria profesional en la ingeniería me ha proporcionado una sólida base en la
           resolución de problemas y la gestión de proyectos, habilidades que ahora estoy aplicando en el
           emocionante mundo del desarrollo web. Me comprometo con el aprendizaje continuo y la mejora constante,
           buscando nuevas oportunidades para fusionar mi experiencia en ingeniería con las tecnologías más
